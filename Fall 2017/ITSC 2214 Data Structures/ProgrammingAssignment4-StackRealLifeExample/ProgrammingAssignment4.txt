@@ -1,0 +1,5 @@
+-Description: Use stack to implement a real-life example
+
+-Requirements: Given a string, reverse it using stack. For example “Data Structures” should be converted to “serutcurtS ataD”.
+
+-Submission: to submit your program, zip only the classes together and upload them on Canvas (not the whole project). Make sure you’re submitting the .JAVA file and not the .CLASS file.

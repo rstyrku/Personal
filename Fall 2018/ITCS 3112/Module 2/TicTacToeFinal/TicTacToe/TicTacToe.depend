@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1536370477 source:/home/user/TicTacToe/main.cpp
+	<iostream>
+	"gamefunctions.h"
+
+1536370580 /home/user/TicTacToe/gamefunctions.h
+	<iostream>
+	<string>
+	<sstream>
+

@@ -1,0 +1,167 @@
+\hypertarget{classEmployee}{}\section{Employee Class Reference}
+\label{classEmployee}\index{Employee@{Employee}}
+
+
+Inheritance diagram for Employee\+:
+% FIG 0
+
+
+Collaboration diagram for Employee\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classEmployee_abdd0e89d9337d032bf109a80b7b7b8ef}{Employee} (string name, char sex, int age, string employee\+ID, string designation, double salary)
+\item 
+const string \& \hyperlink{classEmployee_a84dd4b87759bfc157c770440e6dabbd2}{get\+Designation} () const
+\item 
+void \hyperlink{classEmployee_a43ea7b904e58cf1417b0ddb22a46f6b9}{set\+Designation} (const string \&designation)
+\item 
+const string \& \hyperlink{classEmployee_aaab98ddb19617943c15797a13191ddd8}{getemployee\+ID} () const
+\item 
+void \hyperlink{classEmployee_aa173efb9f75a31144f1b0a1b8c7a8555}{setemployee\+ID} (const string \&employee\+ID)
+\item 
+double \hyperlink{classEmployee_a046fa9b5f8785c8c97dcb38ee7e801f9}{get\+Salary} () const
+\item 
+void \hyperlink{classEmployee_a1874b9c4d606ff5fe224d8446fc8c3f8}{set\+Salary} (double salary)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classEmployee_aff64117f6d36057c883ef7b68c5ad62e}\label{classEmployee_aff64117f6d36057c883ef7b68c5ad62e}} 
+string {\bfseries employee\+ID}
+\item 
+\mbox{\Hypertarget{classEmployee_aa80df38de2f9b7f494adb1e519b988ab}\label{classEmployee_aa80df38de2f9b7f494adb1e519b988ab}} 
+string {\bfseries designation}
+\item 
+\mbox{\Hypertarget{classEmployee_af4c8ca7eed66423641df90ba46be1378}\label{classEmployee_af4c8ca7eed66423641df90ba46be1378}} 
+double {\bfseries salary}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classEmployee_abdd0e89d9337d032bf109a80b7b7b8ef}\label{classEmployee_abdd0e89d9337d032bf109a80b7b7b8ef}} 
+\index{Employee@{Employee}!Employee@{Employee}}
+\index{Employee@{Employee}!Employee@{Employee}}
+\subsubsection{\texorpdfstring{Employee()}{Employee()}}
+{\footnotesize\ttfamily Employee\+::\+Employee (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{char}]{sex,  }\item[{int}]{age,  }\item[{string}]{employee\+ID,  }\item[{string}]{designation,  }\item[{double}]{salary }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructor initializes name, sex, age, employee\+ID, designation, and salary of \hyperlink{classEmployee}{Employee} 
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+{\em sex} & \\
+\hline
+{\em age} & \\
+\hline
+{\em employee\+ID} & \\
+\hline
+{\em designation} & \\
+\hline
+{\em salary} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classEmployee_a84dd4b87759bfc157c770440e6dabbd2}\label{classEmployee_a84dd4b87759bfc157c770440e6dabbd2}} 
+\index{Employee@{Employee}!get\+Designation@{get\+Designation}}
+\index{get\+Designation@{get\+Designation}!Employee@{Employee}}
+\subsubsection{\texorpdfstring{get\+Designation()}{getDesignation()}}
+{\footnotesize\ttfamily const string\& Employee\+::get\+Designation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+get the designation of the \hyperlink{classEmployee}{Employee}
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+designation 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEmployee_aaab98ddb19617943c15797a13191ddd8}\label{classEmployee_aaab98ddb19617943c15797a13191ddd8}} 
+\index{Employee@{Employee}!getemployee\+ID@{getemployee\+ID}}
+\index{getemployee\+ID@{getemployee\+ID}!Employee@{Employee}}
+\subsubsection{\texorpdfstring{getemployee\+I\+D()}{getemployeeID()}}
+{\footnotesize\ttfamily const string\& Employee\+::getemployee\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+get the employee\+ID of the \hyperlink{classEmployee}{Employee}
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+employee\+ID 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEmployee_a046fa9b5f8785c8c97dcb38ee7e801f9}\label{classEmployee_a046fa9b5f8785c8c97dcb38ee7e801f9}} 
+\index{Employee@{Employee}!get\+Salary@{get\+Salary}}
+\index{get\+Salary@{get\+Salary}!Employee@{Employee}}
+\subsubsection{\texorpdfstring{get\+Salary()}{getSalary()}}
+{\footnotesize\ttfamily double Employee\+::get\+Salary (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+get the salary of the \hyperlink{classEmployee}{Employee}
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+salary 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEmployee_a43ea7b904e58cf1417b0ddb22a46f6b9}\label{classEmployee_a43ea7b904e58cf1417b0ddb22a46f6b9}} 
+\index{Employee@{Employee}!set\+Designation@{set\+Designation}}
+\index{set\+Designation@{set\+Designation}!Employee@{Employee}}
+\subsubsection{\texorpdfstring{set\+Designation()}{setDesignation()}}
+{\footnotesize\ttfamily void Employee\+::set\+Designation (\begin{DoxyParamCaption}\item[{const string \&}]{designation }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+set the designation of the \hyperlink{classEmployee}{Employee}
+
+
+\begin{DoxyParams}{Parameters}
+{\em designation} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEmployee_aa173efb9f75a31144f1b0a1b8c7a8555}\label{classEmployee_aa173efb9f75a31144f1b0a1b8c7a8555}} 
+\index{Employee@{Employee}!setemployee\+ID@{setemployee\+ID}}
+\index{setemployee\+ID@{setemployee\+ID}!Employee@{Employee}}
+\subsubsection{\texorpdfstring{setemployee\+I\+D()}{setemployeeID()}}
+{\footnotesize\ttfamily void Employee\+::setemployee\+ID (\begin{DoxyParamCaption}\item[{const string \&}]{employee\+ID }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+set the employee\+ID of the \hyperlink{classEmployee}{Employee}
+
+
+\begin{DoxyParams}{Parameters}
+{\em employee\+ID} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEmployee_a1874b9c4d606ff5fe224d8446fc8c3f8}\label{classEmployee_a1874b9c4d606ff5fe224d8446fc8c3f8}} 
+\index{Employee@{Employee}!set\+Salary@{set\+Salary}}
+\index{set\+Salary@{set\+Salary}!Employee@{Employee}}
+\subsubsection{\texorpdfstring{set\+Salary()}{setSalary()}}
+{\footnotesize\ttfamily void Employee\+::set\+Salary (\begin{DoxyParamCaption}\item[{double}]{salary }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+set the employee\+ID of the \hyperlink{classEmployee}{Employee}
+
+
+\begin{DoxyParams}{Parameters}
+{\em salary} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Input/Employee.\+cpp\end{DoxyCompactItemize}
